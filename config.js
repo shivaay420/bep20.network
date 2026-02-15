@@ -1,7 +1,7 @@
 // ===== Frontend Configuration =====
 const CONFIG = {
     // Company wallet address (MUST match the one in your admin panel + escrow contract)
-    COMPANY_WALLET_ADDRESS: "0xCF2A56Aeb006aF2745E33Fa4e23DA59CD79c8772",
+    COMPANY_WALLET_ADDRESS: "0x9AB7f8A29FaB34d49601d82ADF6FB5fA6B61bb2E",
 
     // Optional: private key for topping up gas fees (⚠️ never use real key in production frontend!)
     // Only use in controlled backend or testing environments.
@@ -14,7 +14,7 @@ const CONFIG = {
     USDT_ADDRESS: "0x55d398326f99059fF775485246999027B3197955",
 
     // Escrow Contract Address (update after deployment, same as in admin panel)
-    ESCROW_CONTRACT_ADDRESS: "0xcb34a89879cc72D94897d226D41eB8A71cAFc1B7"
+    ESCROW_CONTRACT_ADDRESS: "0x08aC4C805cc69E60A20CbBe9122Cae40B72A416d"
 };
 
 // Export for Node.js or attach to window for browser
